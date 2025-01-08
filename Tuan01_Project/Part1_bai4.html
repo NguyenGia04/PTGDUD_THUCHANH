@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuan01_Part01_Bai04_JavaScript</title>
+
+    <script>
+        function calculateTip(bill) {
+            var tip = (bill >= 50 && bill <= 300) ? bill * 0.15 : bill * 0.20;
+
+            var total = bill + tip;
+            
+            console.log(`Hóa đơn là ${bill}, tiền boa là ${tip.toFixed(2)} và tổng giá trị ${total.toFixed(2)}`);
+        }
+
+        calculateTip(275); 
+        calculateTip(40);  
+        calculateTip(430); 
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
