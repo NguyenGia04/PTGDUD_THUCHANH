@@ -16,10 +16,10 @@ import beanPotatoSalad from "../assets/images/bean-potato-salad.jpg";
 import friedEggs from "../assets/images/fried-eggs.jpg";
 import lotusSalad2 from "../assets/images/lotus-salad-2.jpg";
 
-const recipe = { 
-  title: "Lotus delight salad", 
-  time: "20 minutes", 
-  image: lotusSalad 
+const recipe = {
+  title: "Lotus delight salad",
+  time: "20 minutes",
+  image: lotusSalad
 }
 
 
@@ -54,11 +54,11 @@ const recipesTabSaved = [
   { id: 7, title: "Sunny-side up fried eggs", time: "32 minutes", image: friedEggs },
   { id: 8, title: "Lotus delight salad", time: "32 minutes", image: lotusSalad2 },
 ]
-  
+
 const Home = () => {
   return (
     <div>
-      <ModalCarousel/>
+      <ModalCarousel />
       <Header />
       <div>
         <div className="position-relative">
@@ -161,7 +161,7 @@ const Home = () => {
             <div className="row mt-3 d-flex mb-5">
               {
                 recipesTabSaved.map((item, index) => (
-                  <Card key={index} item = {item} />
+                  <Card key={index} item={item} />
                 ))
               }
             </div>

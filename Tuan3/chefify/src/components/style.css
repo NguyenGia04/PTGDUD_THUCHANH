@@ -29,6 +29,7 @@
     border: 1px solid #ddd;
     border-radius: 20px;
     width: 250px;
+    background-color: #f8f8f8;
 }
 
 .nav-links {
@@ -114,7 +115,6 @@ body {
     text-decoration: none;
     font-size: 14px;
     margin-left: 20px;
-
 }
 
 .footer-section ul li a:hover {
@@ -177,7 +177,6 @@ body {
 .footer-bottom a:hover {
     color: white;
 }
-
 
 .content {
     width: 96vw;
@@ -286,14 +285,14 @@ body {
     color: white;
 }
 
-.filter-section .minutes{
+.filter-section .minutes {
     width: 250px;
 }
 
 .type-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr; 
-    gap: 10px; 
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
 }
 
 .type-grid label {
